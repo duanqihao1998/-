@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <okhttp3utilsstudy.text.com.okhttp3utils.viewtitle.TopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:leftText="全部"
+        app:leftTextColor="#FFFFFF"
+        app:rightText="More"
+        app:rightTextColor="#FFFFFF"
+        app:title="测试标题"
+        app:titleTextColor="#123412"
+        app:titleTextSize="10sp"/>
+</LinearLayout>

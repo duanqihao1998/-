@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/shop_image"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/shop_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="小米(MI)Air 13.3英寸全金属轻薄笔记本(i5-7200U 8G 256G PCle SSD MX150 2G独显 FHD 指纹识别 Win10）银"/>
+
+
+</LinearLayout>

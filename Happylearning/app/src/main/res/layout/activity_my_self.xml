@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorhui"
+    android:orientation="vertical"
+    tools:context="com.bwie.zss.activity.MySelfActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/rlBack"
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/left" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人资料"
+            android:layout_centerInParent="true"
+            android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/baocun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保存"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorlv"
+                android:textSize="18sp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/lvSelectGraphic"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorbai"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:text="头像"
+        android:textColor="#666666"
+        android:textSize="18sp" />
+
+        <com.bwie.zss.view.XCRoundRectImageView
+            android:id="@+id/updownpic"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorbai"
+        android:layout_height="70sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:text="昵称"/>
+        <EditText
+            android:id="@+id/nicheng"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:background="@null"
+            android:textSize="15sp"
+            android:hint="请输入昵称"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:text="个人信息"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorbai"
+        android:layout_height="70sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:text="姓名"/>
+        <EditText
+            android:id="@+id/clearname"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:background="@null"
+            android:textSize="15sp"
+            android:hint="请输入真实姓名"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorbai"
+        android:layout_height="70sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:text="性别"/>
+        <EditText
+            android:id="@+id/sex"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:textSize="15sp"
+            android:background="@null"
+            android:hint="请输入性别"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorbai"
+        android:layout_height="70sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:text="出生日期"/>
+        <EditText
+            android:id="@+id/birthday"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:textSize="15sp"
+            android:background="@null"
+            android:hint="请输入出生日期"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorbai"
+        android:layout_height="70sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:text="所在城市"/>
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:background="@null"
+            android:textSize="15sp"
+            android:hint="请输所在城市"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:text="孩子信息"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorbai"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="孩子数量"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/chilcount"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:background="@null"
+            android:hint="请输孩子数量"
+            android:textSize="15sp" />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

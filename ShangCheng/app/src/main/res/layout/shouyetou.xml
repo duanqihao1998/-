@@ -1,0 +1,48 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@android:color/holo_red_light"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioButton
+        android:id="@+id/saoyisao"
+        android:drawableTop="@drawable/sao"
+        android:button="@null"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="扫一扫"/>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/sousuokuang"
+            android:textSize="16dp"
+            android:hint="搜索的宝贝"
+            android:id="@+id/editText" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/sou"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <RadioButton
+        android:id="@+id/sousuo"
+        android:drawableTop="@drawable/sou"
+        android:button="@null"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="搜索"/>
+</LinearLayout>

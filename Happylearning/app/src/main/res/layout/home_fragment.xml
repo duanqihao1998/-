@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorhui"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearTop"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/colorlan"
+        android:layout_height="70dp">
+        <ImageView
+            android:id="@+id/leftImage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/white_arrow_down"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorwrite"
+            android:text="乐学365"
+            />
+        <ImageView
+            android:id="@+id/rightImage"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/edit"/>
+
+    </LinearLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/a_tab"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/linearTop"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/a_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a_tab"
+        >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

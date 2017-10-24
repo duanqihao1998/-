@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorhui">#F0F0F0</color>
+    <!--整体背景-->
+    <color name="colorlan">#46B99A</color>
+    <!--头-->
+    <color name="colorwrite">#F1FAFB</color>
+    <color name="colorbai">#FFFFFF</color>
+    <color name="colorlv">#46B99A</color>
+
+    <color name="colorhuihui">#CBCBCB</color>
+</resources>

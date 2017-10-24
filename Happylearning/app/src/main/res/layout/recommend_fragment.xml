@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorhui"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearTop"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorlan"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/colorwrite"
+            android:textSize="18sp"
+            android:text="推荐"
+            />
+
+    </LinearLayout>
+    <WebView
+        android:id="@+id/webview"
+        android:layout_below="@+id/linearTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+</RelativeLayout>

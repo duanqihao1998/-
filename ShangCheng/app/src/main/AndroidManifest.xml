@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bwie.shang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.MyAppliction"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_sso_taobao_account"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MyActivity" />
+        <activity android:name=".activity.SousuoActivity" />
+        <activity android:name=".activity.ShangPinShowActivity" />
+        <activity android:name=".activity.LoginAndRegisterActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.GWCActivity" />
+        <activity android:name=".activity.DingDanxiangqingActivity"></activity>
+    </application>
+
+</manifest>
